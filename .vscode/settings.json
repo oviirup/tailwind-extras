@@ -1,5 +1,6 @@
 {
   "editor.formatOnSave": true,
+  "explorer.sortOrder": "type",
   "css.validate": false,
-  "cSpell.words": ["pluggable", "pluggables"]
+  "files.associations": { "*.css": "tailwindcss" }
 }

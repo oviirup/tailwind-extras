@@ -2,6 +2,7 @@
   "name": "tailwind-extras",
   "version": "2.0.0",
   "description": "A collection of useful tailwind plugins in one package",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/oviirup/tailwind-extras"
@@ -10,12 +11,11 @@
     "name": "Avirup Ghosh (oviirup)",
     "url": "https://github.com/oviirup"
   },
-  "license": "MIT",
   "exports": {
-    ".": "./styles/index.css",
-    "./animate": "./styles/animate.css",
-    "./drag": "./styles/drag.css",
-    "./hocus": "./styles/hocus.css"
+    ".": "./index.css",
+    "./animate": "./animate.css",
+    "./drag": "./drag.css",
+    "./hocus": "./hocus.css"
   },
   "keywords": [
     "shadcn",
@@ -42,9 +42,5 @@
   "devDependencies": {
     "@changesets/changelog-github": "^0",
     "@changesets/cli": "^2"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
   }
 }
