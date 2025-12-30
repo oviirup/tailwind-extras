@@ -1,10 +1,10 @@
 {
-  "name": "tailwindcss-pluggables",
+  "name": "tailwind-extras",
   "version": "2.0.0",
   "description": "A collection of useful tailwind plugins in one package",
   "repository": {
     "type": "git",
-    "url": "https://github.com/oviirup/tailwindcss-pluggable"
+    "url": "https://github.com/oviirup/tailwind-extras"
   },
   "author": {
     "name": "Avirup Ghosh (oviirup)",

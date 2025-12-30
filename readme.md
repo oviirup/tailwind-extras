@@ -1,4 +1,4 @@
-# Tailwindcss Pluggables [![](https://img.shields.io/npm/v/tailwindcss-pluggables)](https://www.npmjs.com/package/tailwindcss-pluggables)
+# Tailwind Extras [![](https://img.shields.io/npm/v/tailwind-extras)](https://www.npmjs.com/package/tailwind-extras)
 
 A comprehensive collection of Tailwind CSS v4 utilities that enhance your development workflow with powerful animations, interaction states, and drag controls. Built specifically for Tailwind CSS v4's new architecture.
 
@@ -22,14 +22,14 @@ It plugin uses the new [css-first architecture](https://tailwindcss.com/docs/add
 Install the package using your preferred package manager:
 
 ```bash
-npm install tailwindcss-pluggables
+npm install tailwind-extras
 ```
 
 To include all utilities in your project, add the following to your main CSS file:
 
 ```css
 @import 'tailwindcss';
-@import 'tailwindcss-pluggables';
+@import 'tailwind-extras';
 ```
 
 ### Import Individual Modules
@@ -40,9 +40,9 @@ For better bundle size control, you can import only the utilities you need:
 @import 'tailwindcss';
 
 /* Import only what you need */
-@import 'tailwindcss-pluggables/animate';
-@import 'tailwindcss-pluggables/drag';
-@import 'tailwindcss-pluggables/hocus';
+@import 'tailwind-extras/animate';
+@import 'tailwind-extras/drag';
+@import 'tailwind-extras/hocus';
 ```
 
 ## Plugins
@@ -54,9 +54,13 @@ Animation utilities inspired by [tailwindcss-animate](https://github.com/jamiebu
 **Enter/Exit Animations:**
 
 ```html
-<div class="animate-in fade-in slide-in-from-top duration-300">Content entering from top</div>
+<div class="animate-in fade-in slide-in-from-top duration-300">
+  Content entering from top
+</div>
 
-<div class="animate-out fade-out slide-out-to-bottom duration-300">Content exiting to bottom</div>
+<div class="animate-out fade-out slide-out-to-bottom duration-300">
+  Content exiting to bottom
+</div>
 ```
 
 **Available Animation Types:**
@@ -108,10 +112,14 @@ Combined hover and focus state variants for improved accessibility and user expe
 
 ```html
 <!-- Combined hover and focus styles -->
-<button class="hocus:bg-blue-600 hocus:text-white">Button with hocus state</button>
+<button class="hocus:bg-blue-600 hocus:text-white">
+  Button with hocus state
+</button>
 
 <!-- Hover + focus-visible variant -->
-<button class="hocus-visible:ring-2 hocus-visible:ring-blue-500">Accessible button</button>
+<button class="hocus-visible:ring-2 hocus-visible:ring-blue-500">
+  Accessible button
+</button>
 
 <!-- Hover + active variant -->
 <button class="hocus-active:scale-95">Interactive button</button>
@@ -145,7 +153,7 @@ This project uses [Bun.js](https://bun.sh/) as the primary package manager for d
 
 ```bash
 # Clone the repository
-git clone https://github.com/oviirup/tailwindcss-pluggables.git
+git clone https://github.com/oviirup/tailwind-extras.git
 
 # Install dependencies
 bun install
