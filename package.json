@@ -36,18 +36,12 @@
     "tailwindcss-animate",
     "tailwindcss-plugins"
   ],
-  "scripts": {
-    "format": "prettier -wu --cache .",
-    "prepare": "husky"
-  },
   "peerDependencies": {
     "tailwindcss": ">=4"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0",
-    "@changesets/cli": "^2",
-    "husky": "^9",
-    "lint-staged": "^16"
+    "@changesets/cli": "^2"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
