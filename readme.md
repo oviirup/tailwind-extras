@@ -113,23 +113,19 @@ Combined hover and focus state variants for improved accessibility and user expe
 ```html
 <!-- Combined hover and focus styles -->
 <button class="hocus:bg-blue-600 hocus:text-white">
-  Button with hocus state
+  Button with :hover & :focus-visible state
 </button>
 
-<!-- Hover + focus-visible variant -->
-<button class="hocus-visible:ring-2 hocus-visible:ring-blue-500">
-  Accessible button
+<!-- Pressed state (active + hover) -->
+<button class="pressed:scale-95 pressed:bg-blue-700">
+  Interactive button
 </button>
-
-<!-- Hover + active variant -->
-<button class="hocus-active:scale-95">Interactive button</button>
 ```
 
 **Available Variants:**
 
-- `hocus:` - Combines `:hover` and `:focus`
-- `hocus-visible:` - Combines `:hover` and `:focus-visible` (recommended for accessibility)
-- `hocus-active:` - Combines `:hover` and `:active`
+- `hocus:` - Applies styles on `:focus-visible` (recommended for accessibility)
+- `pressed:` - Applies styles when element is both `:active` and `:hover`
 
 **With Group and Peer:**
 
