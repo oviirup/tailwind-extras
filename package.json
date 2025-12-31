@@ -1,21 +1,21 @@
 {
-  "name": "tailwindcss-pluggables",
+  "name": "tailwind-extras",
   "version": "2.0.0",
   "description": "A collection of useful tailwind plugins in one package",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/oviirup/tailwindcss-pluggable"
+    "url": "https://github.com/oviirup/tailwind-extras"
   },
   "author": {
     "name": "Avirup Ghosh (oviirup)",
     "url": "https://github.com/oviirup"
   },
-  "license": "MIT",
   "exports": {
-    ".": "./styles/index.css",
-    "./animate": "./styles/animate.css",
-    "./drag": "./styles/drag.css",
-    "./hocus": "./styles/hocus.css"
+    ".": "./index.css",
+    "./animate": "./animate.css",
+    "./drag": "./drag.css",
+    "./hocus": "./hocus.css"
   },
   "keywords": [
     "shadcn",
@@ -36,27 +36,11 @@
     "tailwindcss-animate",
     "tailwindcss-plugins"
   ],
-  "scripts": {
-    "format": "prettier -wu --cache .",
-    "prepare": "husky"
-  },
   "peerDependencies": {
     "tailwindcss": ">=4"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0",
-    "@changesets/cli": "^2",
-    "husky": "^9",
-    "lint-staged": "^16",
-    "prettier": "^3",
-    "prettier-plugin-pkg": "^0",
-    "prettier-plugin-tailwindcss": "^0"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
-  },
-  "lint-staged": {
-    "*": "prettier -wu"
+    "@changesets/cli": "^2"
   }
 }
