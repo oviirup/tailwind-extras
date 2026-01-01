@@ -15,7 +15,8 @@
     ".": "./index.css",
     "./animate": "./animate.css",
     "./drag": "./drag.css",
-    "./hocus": "./hocus.css"
+    "./hocus": "./hocus.css",
+    "./scrollbar": "./scrollbar.css"
   },
   "keywords": [
     "shadcn",
@@ -27,6 +28,7 @@
     "fades",
     "opacity",
     "scale",
+    "scrollbar",
     "slide",
     "spin",
     "tailwind",

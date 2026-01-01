@@ -1,0 +1,26 @@
+@utility scroll-none {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@utility scroll-thin {
+  scrollbar-width: thin;
+}
+
+@utility scroll-thumb-* {
+  --tw-scrollbar-thumb: --value(--color-*);
+  scrollbar-color: var(--tw-scrollbar-thumb) var(--tw-scrollbar-track);
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--tw-scrollbar-thumb);
+  }
+}
+
+@utility scroll-track-* {
+  --tw-scrollbar-track: --value(--color-*);
+  scrollbar-color: var(--tw-scrollbar-thumb) var(--tw-scrollbar-track);
+  &::-webkit-scrollbar-track {
+    background-color: var(--tw-scrollbar-track);
+  }
+}

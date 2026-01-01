@@ -10,12 +10,12 @@ It plugin uses the new [css-first architecture](https://tailwindcss.com/docs/add
 - 🛠️ Fully compatible with [shadcn](https://ui.shadcn.com), and includes custom animations like `accordion-up`, `accordion-down`
 - 🖱️ **Drag**: Control element draggability with semantic utility classes
 - 👆 **Hocus**: Combined hover and focus state variants for better UX patterns
+- 📜 **Scrollbar**: Customize scrollbar appearance with utilities for width, thumb, and track styling
 
 **Upcoming Features**
 
 - [ ] Custom utilities for `radix-ui` compatible `data-`, `aria-`, and `group-` attributes
 - [ ] Typography plugin for `prose`
-- [ ] Utility for styling the scrollbar
 
 ## Installation & Usage
 
@@ -43,6 +43,7 @@ For better bundle size control, you can import only the utilities you need:
 @import 'tailwind-extras/animate';
 @import 'tailwind-extras/drag';
 @import 'tailwind-extras/hocus';
+@import 'tailwind-extras/scrollbar';
 ```
 
 ## Plugins
@@ -138,6 +139,34 @@ Combined hover and focus state variants for improved accessibility and user expe
   <input class="peer-hocus:border-blue-500" />
 </div>
 ```
+
+### Scrollbar
+
+Customize scrollbar appearance with utilities for controlling width, thumb color, and track color.
+
+```html
+<!-- Hide scrollbar -->
+<div class="scroll-none overflow-auto">
+  Content with hidden scrollbar
+</div>
+
+<!-- Thin scrollbar -->
+<div class="scroll-thin overflow-auto">
+  Content with thin scrollbar
+</div>
+
+<!-- Custom scrollbar colors -->
+<div class="scroll-thumb-blue-500 scroll-track-gray-200 overflow-auto">
+  Content with custom colored scrollbar
+</div>
+```
+
+**Available Classes:**
+
+- `scroll-none` - Hides the scrollbar completely (cross-browser compatible)
+- `scroll-thin` - Sets scrollbar width to thin
+- `scroll-thumb-{color}` - Sets the scrollbar thumb color (uses Tailwind color utilities)
+- `scroll-track-{color}` - Sets the scrollbar track color (uses Tailwind color utilities)
 
 ## Contributing
 
