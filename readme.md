@@ -4,6 +4,22 @@ A comprehensive collection of Tailwind CSS v4 utilities that enhance your develo
 
 It plugin uses the new [css-first architecture](https://tailwindcss.com/docs/adding-custom-styles#adding-custom-utilities), leveraging the latest capabilities in the framework. This means utilities are provided as native CSS via `@import`, instead of being registered through the older JavaScript plugin API.
 
+
+<details>
+<summary><b>Table of content</b></summary>
+
+- [Features](#features)
+- [Installation \& Usage](#installation--usage)
+  - [Import Individual Modules](#import-individual-modules)
+- [Plugins](#plugins)
+  - [Animate](#animate)
+  - [Drag](#drag)
+  - [Hocus](#hocus)
+  - [Scrollbar](#scrollbar)
+- [Contributing](#contributing)
+  - [Development Setup](#development-setup)
+</details>
+
 ## Features
 
 - 🎨 **Animate**: Rich animation utilities for enter/exit transitions, fades, slides, zooms, and more
@@ -186,6 +202,4 @@ bun install
 
 While Bun is recommended for development, the package works with all major package managers in production.
 
-## License
-
-MIT © [Avirup Ghosh (oviirup)](https://github.com/oviirup)
+**License:** MIT © [Avirup Ghosh](https://github.com/oviirup)
