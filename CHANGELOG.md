@@ -1,5 +1,11 @@
 # tailwind-extras
 
+## 2.0.3
+
+### Patch Changes
+
+- [`1410787`](https://github.com/oviirup/tailwind-extras/commit/14107871a8364ea132630cc2a2208f859fe8b083) Thanks [@oviirup](https://github.com/oviirup)! - 🐛 fixed `hocus` variant
+
 ## 2.0.2
 
 ### Patch Changes
