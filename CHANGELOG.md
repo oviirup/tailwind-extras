@@ -1,5 +1,11 @@
 # tailwind-extras
 
+## 2.0.4
+
+### Patch Changes
+
+- [`b9479cb`](https://github.com/oviirup/tailwind-extras/commit/b9479cb6e4dbd4a3ff16c4fcbc22628ca69bbf4c) Thanks [@oviirup](https://github.com/oviirup)! - 🐛 fixed missing import
+
 ## 2.0.3
 
 ### Patch Changes
