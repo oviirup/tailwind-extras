@@ -3,6 +3,7 @@
   "version": "2.0.3",
   "description": "A collection of useful tailwind plugins in one package",
   "license": "MIT",
+  "style": "index.css",
   "repository": {
     "type": "git",
     "url": "https://github.com/oviirup/tailwind-extras"
