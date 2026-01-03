@@ -1,6 +1,6 @@
 {
   "name": "tailwind-extras",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "A collection of useful tailwind plugins in one package",
   "license": "MIT",
   "style": "index.css",
