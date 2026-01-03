@@ -1,5 +1,11 @@
 # tailwind-extras
 
+## 2.0.5
+
+### Patch Changes
+
+- [`30fef7f`](https://github.com/oviirup/tailwind-extras/commit/30fef7f1bc339525e08a545f2c4aa3d7c39f08f7) Thanks [@oviirup](https://github.com/oviirup)! - ✏️ fixed typo
+
 ## 2.0.4
 
 ### Patch Changes
