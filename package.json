@@ -3,15 +3,8 @@
   "version": "2.0.5",
   "description": "A collection of useful tailwind plugins in one package",
   "license": "MIT",
-  "style": "index.css",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/oviirup/tailwind-extras"
-  },
-  "author": {
-    "name": "Avirup Ghosh (oviirup)",
-    "url": "https://github.com/oviirup"
-  },
+  "repository": "https://github.com/oviirup/tailwind-extras",
+  "author": "Avirup Ghosh (oviirup)",
   "exports": {
     ".": "./index.css",
     "./animate": "./animate.css",
@@ -39,11 +32,16 @@
     "tailwindcss-animate",
     "tailwindcss-plugins"
   ],
+  "scripts": {
+    "format": "biome format --write",
+    "lint": "biome check"
+  },
   "peerDependencies": {
-    "tailwindcss": ">=4"
+    "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "^0",
-    "@changesets/cli": "^2"
+    "@biomejs/biome": "^2.3.14",
+    "@changesets/changelog-github": "^0.5.2",
+    "@changesets/cli": "^2.29.8"
   }
 }
