@@ -1,5 +1,11 @@
 # tailwind-extras
 
+## 2.0.6
+
+### Patch Changes
+
+- [`2084a0e`](https://github.com/oviirup/tailwind-extras/commit/2084a0e3080230f8bdcb365fe78f276b65a24a91) Thanks [@oviirup](https://github.com/oviirup)! - ♻️ updated animate plugin
+
 ## 2.0.5
 
 ### Patch Changes

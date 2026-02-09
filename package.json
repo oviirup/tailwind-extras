@@ -1,6 +1,6 @@
 {
   "name": "tailwind-extras",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "A collection of useful tailwind plugins in one package",
   "license": "MIT",
   "repository": "https://github.com/oviirup/tailwind-extras",
