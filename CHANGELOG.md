@@ -1,5 +1,11 @@
 # tailwind-extras
 
+## 2.0.7
+
+### Patch Changes
+
+- [`97ce5cc`](https://github.com/oviirup/tailwind-extras/commit/97ce5cc54fcc591eb217d370ff195ae47e61a52a) Thanks [@oviirup](https://github.com/oviirup)! - ✨ added scroll-gutter utilities
+
 ## 2.0.6
 
 ### Patch Changes
